@@ -54,14 +54,14 @@ public class DataBase extends SQLiteOpenHelper {
     }
 
     public void insertPets(SQLiteDatabase sqLiteDatabase){
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Tiger",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro1);
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Cat",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro2);
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Lion",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro3);
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Rabbit",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro4);
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Panda",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato1);
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Hamster",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato3);
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Chicken",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato2);
-        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Dog",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato4);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Tobby",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro1);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Nicolas",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro2);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Terry",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro3);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Sparky",ConstantesDB.TABLE_PETS_IMG, R.drawable.perro4);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Mushu",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato1);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Ernesto",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato3);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Bastet",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato2);
+        insertPet(sqLiteDatabase,new ContentValues(),ConstantesDB.TABLE_PETS_NAME,"Viviano",ConstantesDB.TABLE_PETS_IMG, R.drawable.gato4);
     }
     public void insertPet(SQLiteDatabase sqLiteDatabase,ContentValues contentValues, String nameField, String nameValue, String imgField, int imgValue){
         contentValues.put(nameField,nameValue);

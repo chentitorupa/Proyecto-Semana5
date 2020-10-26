@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Petagram</string>
-    <string name="nombre">Tobby</string>
-    <string name="raiting">15</string>
+    <string name="nombre">Viviano</string>
+    <string name="raiting">5</string>
     <string name="menu_about">About</string>
     <string name="menu_contacto">Contacto</string>
     <string name="texto_contacto">Contacto</string>
