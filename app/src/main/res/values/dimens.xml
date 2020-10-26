@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tittle_size">30dp</dimen>
+    <dimen name="nombre_cardView">20sp</dimen>
+
+    <dimen name="bone_like_button">55dp</dimen>
+    <dimen name="bones_size">55dp</dimen>
+
+
+    <dimen name="text_rate_size">20dp</dimen>
+    <dimen name="margin_left_bonerate">80dp</dimen>
+    <dimen name="margin_left_actionbar">15dp</dimen>
+    <dimen name="margin_cardleft_text">10dp</dimen>
+
+    <dimen name="cv_size_w">130dp</dimen>
+    <dimen name="cv_size_h">150dp</dimen>
+
+
+    <dimen name="civ_size">200dp</dimen>
+    <dimen name="civ_border">4dp</dimen>
+    <dimen name="civ_shadow">10dp</dimen>
+    <dimen name="civ_text">28sp</dimen>
+
+
+    <dimen name="tituloBiografia">50dp</dimen>
+    <dimen name="rellenotitleacerca">25dp</dimen>
+    <dimen name="sizeacerca">20dp</dimen>
+
+    <dimen name="icon_name">55dp</dimen>
+    <dimen name="icon_contact">55dp</dimen>
+    <dimen name="corner_button">50dp</dimen>
+
+</resources>
